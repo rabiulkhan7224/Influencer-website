@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 auto;
+    max-width: 1180px;
+
+
+
+
+}
+
+/* share style */
+.display-flex {
+    display: flex;
+
+
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.text-grey {
+    color: #3A3A3A;
+}
+
+.btn-primary {
+    width: 196px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    border-style: none;
+    border-radius: 24px;
+
+}
+
+
+/* heade style */
+.navbar {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-item {
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar .brand {
+    font-size: 1.5rem;
+    color: #3A3A3A;
+}
+
+/* banner style */
+.banner-content {
+    width: 582px;
+}
+
+.banner-title {
+    font-size: 3.25rem;
+    color: rgb(58, 58, 58, 1);
+}
+
+.banner-image {
+    width: 475px;
+    height: 475px;
+
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+
+
+
+/* main style */
+/* sponsor-brand */
+.sponsor-brand {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.sponsor-name {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+
+
+}
+
+/* section popular-collection style */
+.popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.product {
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15) ;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+.product h1{ 
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
+}
+.product h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+.product p{
+    color: #787885;
+
+}
+.product img{
+    width: 100%;
+}
+/* featured style */
+.featured{
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.featured-title h1{
+    /* width: 610px; */
+color: #0A0826;
+font-size: 2.38rem;
+
+
+}
+.featured-image{
+    width: 100%;
+}
+footer{
+    background-color: #0A0826;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and(max-width:576px) {
+    
+}
+
+
